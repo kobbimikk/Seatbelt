@@ -27,7 +27,7 @@ install:
 
 build_script:
   - msbuild
-  - 7z a seatbeltbuild.zip  %APPVEYOR_BUILD_FOLDER%\SeatBett\bin\*
+  - 7z a seatbeltbuild.zip  %APPVEYOR_BUILD_FOLDER%\SeatBelt\bin\*
 #  - ps: Start-Sleep -s 3609
   
 artifacts:
